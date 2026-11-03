@@ -1,6 +1,6 @@
 # Amel Osman — IT & Cybersecurity Portfolio
 
-B.S. Information Technology (Networking/Systems Track) + Cybersecurity, University of Cincinnati — expected December 2026 
+B.S. Information Technology (Networking/Systems Track) + Cybersecurity, University of Cincinnati — expected December 2026
 
 Dean's List, five consecutive terms
 
@@ -20,7 +20,7 @@ This repository collects coursework and projects that show my hands-on work in n
 ## 🛡️ Security Operations & Offensive Security
 | Project | Course | Skills |
 |---|---|---|
-| _Project name_ | Network Monitoring & IPS | _e.g. Snort/Suricata, alert analysis_ |
+| [OSSEC Alert-Rule Tracing](./security-operations/ossec-alert-rule-tracing) | Network Monitoring & IPS | OSSEC HIDS, alert analysis, rule tracing |
 | _Project name_ | Computer & Network Forensics | _e.g. Autopsy, Wireshark, chain of custody_ |
 | [Web Application Vulnerability Testing](./security-operations/web-app-vuln-testing) | Penetration Testing | SQL injection, XSS, Burp Suite, OWASP ZAP |
 

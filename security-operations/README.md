@@ -5,5 +5,6 @@ Projects covering network defense, monitoring and intrusion prevention, digital 
 | Project | Course | What it shows |
 |---|---|---|
 | [Web Application Vulnerability Testing](./web-app-vuln-testing) | Penetration Testing | SQL injection, XSS, and command injection using Burp Suite and OWASP ZAP |
+| [OSSEC Alert-Rule Tracing](./ossec-alert-rule-tracing) | Network Monitoring & IPS | Tracing a HIDS alert to its detection rule; compliance mapping |
 
 [← Back to portfolio](../README.md)
