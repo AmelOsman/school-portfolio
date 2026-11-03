@@ -21,7 +21,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | Project | Course | Skills |
 |---|---|---|
 | [OSSEC Alert-Rule Tracing](./security-operations/ossec-alert-rule-tracing) | Network Monitoring & IPS | OSSEC HIDS, alert analysis, rule tracing |
-| _Project name_ | Computer & Network Forensics | _e.g. Autopsy, Wireshark, chain of custody_ |
+| [USB Forensic Examination](./security-operations/usb-forensic-examination) | Computer & Network Forensics | FTK, hash verification, chain of custody |
 | [Web Application Vulnerability Testing](./security-operations/web-app-vuln-testing) | Penetration Testing | SQL injection, XSS, Burp Suite, OWASP ZAP |
 
 ## 📋 Governance, Risk & Policy
