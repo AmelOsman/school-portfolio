@@ -14,7 +14,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | Project | Course | Skills |
 |---|---|---|
 | _Project name_ | Network Infrastructure Management | _e.g. VLANs, routing, subnetting_ |
-| _Project name_ | Enterprise Systems Administration | _e.g. Active Directory, Group Policy_ |
+| [IT Asset Management Server on AWS](./networking-systems/snipe-it-asset-management-aws) | Enterprise Systems Administration | AWS EC2, Linux, Nginx, MySQL, Snipe-IT |
 | _Project name_ | Cloud Computing | _e.g. AWS/Azure, virtual networks_ |
 
 ## 🛡️ Security Operations & Offensive Security

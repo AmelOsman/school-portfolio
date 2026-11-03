@@ -4,6 +4,6 @@ Projects covering network design, systems administration, enterprise infrastruct
 
 | Project | Course | What it shows |
 |---|---|---|
-| [_Project name_](./project-folder-name) | _Course_ | _One-line description_ |
+| [IT Asset Management Server on AWS](./snipe-it-asset-management-aws) | Enterprise Systems Administration | Snipe-IT on AWS EC2 with Nginx, PHP-FPM, and MySQL |
 
 [← Back to portfolio](../README.md)
