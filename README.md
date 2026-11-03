@@ -13,7 +13,7 @@ This repository collects coursework and projects that show my hands-on work in n
 ## 🌐 Networking & Systems
 | Project | Course | Skills |
 |---|---|---|
-| _Project name_ | Network Infrastructure Management | _e.g. VLANs, routing, subnetting_ |
+| [Enterprise Network Build](./networking-systems/enterprise-network-packet-tracer) | Network Infrastructure Management | Cisco IOS, VLANs, EIGRP, NAT, DHCP |
 | [IT Asset Management Server on AWS](./networking-systems/snipe-it-asset-management-aws) | Enterprise Systems Administration | AWS EC2, Linux, Nginx, MySQL, Snipe-IT |
 | [Azure Cloud Fundamentals](./networking-systems/azure-cloud-fundamentals) | Cloud Computing | Azure, PowerShell, VNets, NSGs, storage, containers |
 
