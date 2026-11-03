@@ -40,7 +40,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | _Project name_ | Human Computer Interaction | _e.g. user research, prototyping_ |
 
 ## ⭐ Capstone: IT Support4U
-AI-assisted IT support site built with my senior capstone team and demoed at the IT Expo. [See project →](./capstone-it-support4u)
+AI-assisted IT help desk that resolves common issues from an approved knowledge base and escalates the rest to technicians. I'm the **project lead and UI/UX designer** on a five-person team. _In progress — IT Expo, April 2027._ [See project →](./capstone-it-support4u)
 
 ## 🔬 Home SOC Lab (In Progress)
 A Security Operations Center lab I'm building on my own to extend my coursework beyond the classroom.
