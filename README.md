@@ -15,7 +15,7 @@ This repository collects coursework and projects that show my hands-on work in n
 |---|---|---|
 | _Project name_ | Network Infrastructure Management | _e.g. VLANs, routing, subnetting_ |
 | [IT Asset Management Server on AWS](./networking-systems/snipe-it-asset-management-aws) | Enterprise Systems Administration | AWS EC2, Linux, Nginx, MySQL, Snipe-IT |
-| _Project name_ | Cloud Computing | _e.g. AWS/Azure, virtual networks_ |
+| [Azure Cloud Fundamentals](./networking-systems/azure-cloud-fundamentals) | Cloud Computing | Azure, PowerShell, VNets, NSGs, storage, containers |
 
 ## 🛡️ Security Operations & Offensive Security
 | Project | Course | Skills |
