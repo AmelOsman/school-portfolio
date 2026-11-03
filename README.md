@@ -23,6 +23,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | [OSSEC Alert-Rule Tracing](./security-operations/ossec-alert-rule-tracing) | Network Monitoring & IPS | OSSEC HIDS, alert analysis, rule tracing |
 | [USB Forensic Examination](./security-operations/usb-forensic-examination) | Computer & Network Forensics | FTK, hash verification, chain of custody |
 | [Web Application Vulnerability Testing](./security-operations/web-app-vuln-testing) | Penetration Testing | SQL injection, XSS, Burp Suite, OWASP ZAP |
+| [Secure Network Architecture](./security-operations/secure-network-segmentation) | Network Security | VLANs, VyOS, ARP spoofing, Wireshark |
 
 ## 📋 Governance, Risk & Policy
 | Project | Course | Skills |
