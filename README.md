@@ -36,7 +36,7 @@ This repository collects coursework and projects that show my hands-on work in n
 ## 💻 Scripting, Data & Development
 | Project | Course | Skills |
 |---|---|---|
-| _Project name_ | Scripting Language | _e.g. Python, PowerShell, Bash_ |
+| [logmini: Bash Log Analyzer](./scripting-data-dev/logmini-log-analyzer) | Scripting Language | Bash, grep, awk, regex, log triage |
 | GrandEventPlanningDB | Database Management II | SQL Server, schema design (group project) |
 | _Project name_ | Human Computer Interaction | _e.g. user research, prototyping_ |
 

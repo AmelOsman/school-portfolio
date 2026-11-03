@@ -4,6 +4,6 @@ Projects covering scripting and automation, database design, analytics, web deve
 
 | Project | Course | What it shows |
 |---|---|---|
-| [_Project name_](./project-folder-name) | _Course_ | _One-line description_ |
+| [logmini: Bash Log Analyzer](./logmini-log-analyzer) | Scripting Language | Command-line tool that summarizes logs by severity and extracts events with regex |
 
 [← Back to portfolio](../README.md)
