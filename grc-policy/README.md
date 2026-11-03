@@ -4,6 +4,6 @@ Projects covering cybersecurity policy, risk assessment, security controls, and 
 
 | Project | Course | What it shows |
 |---|---|---|
-| [_Project name_](./project-folder-name) | _Course_ | _One-line description_ |
+| [Network Risk Assessment & Secure Expansion Plan](./network-risk-assessment-and-security-plan) | Network Security | Risk assessment, mitigation planning, and prioritized security recommendations for a board of directors |
 
 [← Back to portfolio](../README.md)

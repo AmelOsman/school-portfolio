@@ -28,6 +28,7 @@ This repository collects coursework and projects that show my hands-on work in n
 ## 📋 Governance, Risk & Policy
 | Project | Course | Skills |
 |---|---|---|
+| [Network Risk Assessment & Secure Expansion Plan](./grc-policy/network-risk-assessment-and-security-plan) | Network Security | Risk assessment, security policy, executive recommendations |
 | _Project name_ | Cybersecurity Policy | _e.g. policy analysis, frameworks_ |
 | _Project name_ | Info Security & Assurance | _e.g. risk assessment, controls_ |
 | _Project name_ | Writing for Business | _e.g. professional and technical writing_ |
