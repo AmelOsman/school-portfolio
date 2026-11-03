@@ -5,5 +5,6 @@ Projects covering cybersecurity policy, risk assessment, security controls, and 
 | Project | Course | What it shows |
 |---|---|---|
 | [Network Risk Assessment & Secure Expansion Plan](./network-risk-assessment-and-security-plan) | Network Security | Risk assessment, mitigation planning, and prioritized security recommendations for a board of directors |
+| [Ukraine: Resiliency Under Fire](./ukraine-cyber-strategy-paper) | Cybersecurity Policy | Research paper comparing Ukraine's cyber strategy with the U.S., Russia, and China |
 
 [← Back to portfolio](../README.md)
