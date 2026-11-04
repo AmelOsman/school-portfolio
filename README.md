@@ -1,6 +1,6 @@
 # Amel Osman — IT & Cybersecurity Portfolio
 
-B.S. Information Technology (Networking/Systems Track) + Cybersecurity, University of Cincinnati — expected December 2026
+B.S. Information Technology (Networking/Systems Track) + Cybersecurity, University of Cincinnati — expected April 2027
 
 Dean's List, five consecutive terms
 
