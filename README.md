@@ -49,7 +49,7 @@ A Security Operations Center lab I'm building on my own to extend my coursework 
 - **Tools:** _e.g. SIEM, IDS, virtual machines_
 - **Status:** _what's built so far and what's next_
 
-[See lab repository →](#)
+[See lab repository →](https://github.com/AmelOsman/SOC-Lab)
 
 ---
 
