@@ -39,7 +39,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | [logmini: Bash Log Analyzer](./scripting-data-dev/logmini-log-analyzer) | Scripting Language | Bash, grep, awk, regex, log triage |
 | [Bearcat Match Website](./scripting-data-dev/bearcat-match-website) | Web Development | HTML5, CSS3, responsive design, semantic markup |
 | GrandEventPlanningDB | Database Management II | SQL Server, schema design (group project) |
-| _Project name_ | Human Computer Interaction | _e.g. user research, prototyping_ |
+| [ResumeChecker UX Prototype](./scripting-data-dev/resume-checker-ux-prototype) | Human Computer Interaction | Figma, HTI, WAAD, usability testing |
 
 ## ⭐ Capstone: IT Support4U
 AI-assisted IT help desk that resolves common issues from an approved knowledge base and escalates the rest to technicians. I'm the **project lead and UI/UX designer** on a five-person team. _In progress — IT Expo, April 2027._ [See project →](./capstone-it-support4u)
