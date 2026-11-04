@@ -37,6 +37,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | Project | Course | Skills |
 |---|---|---|
 | [logmini: Bash Log Analyzer](./scripting-data-dev/logmini-log-analyzer) | Scripting Language | Bash, grep, awk, regex, log triage |
+| [Bearcat Match Website](./scripting-data-dev/bearcat-match-website) | Web Development | HTML5, CSS3, responsive design, semantic markup |
 | GrandEventPlanningDB | Database Management II | SQL Server, schema design (group project) |
 | _Project name_ | Human Computer Interaction | _e.g. user research, prototyping_ |
 
