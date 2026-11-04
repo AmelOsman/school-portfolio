@@ -6,7 +6,7 @@ Dean's List, five consecutive terms
 
 This repository collects coursework and projects that show my hands-on work in networking, systems administration, security operations, and cybersecurity governance. All security testing was performed in authorized, isolated lab environments.
 
-📫 [LinkedIn](#) · [Personal Website](#) · [SOC Lab](#)
+📫 [LinkedIn](https://www.linkedin.com/in/osman-amel/) · [Personal Website](#) · [SOC Lab](https://github.com/AmelOsman/SOC-Lab)
 
 ---
 
