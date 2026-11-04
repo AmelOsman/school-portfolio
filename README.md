@@ -1,82 +1,57 @@
-# ⭐ IT Support4U: AI-Assisted IT Help Desk (Senior Capstone)
+# Amel Osman — IT & Cybersecurity Portfolio
 
-**Course:** Senior Capstone Project (IT 5003C) · **Timeline:** Fall 2026 – Spring 2027 · **Team:** 5 members · **My role:** Project Lead / UI/UX / Documentation
+B.S. Information Technology (Networking/Systems Track) + Cybersecurity, University of Cincinnati — expected April 2027
 
-> **Status: In progress.** Design and planning are complete, and development is underway. Final presentation is in March 2027, followed by the IT Expo in April 2027.
+Dean's List, five consecutive terms
 
-## The Problem
-IT help desks spend much of their day on repetitive, low-complexity requests like password resets, MFA lockouts, and VPN issues. Users wait in long queues for fixes that are already documented, and tier-one technicians lose time they could spend on complex incidents.
+This repository collects coursework and projects that show my hands-on work in networking, systems administration, security operations, and cybersecurity governance. All security testing was performed in authorized, isolated lab environments.
 
-## The Solution
-IT Support4U is a web application that puts an AI support agent in front of the help desk:
-1. A user describes their problem in plain, nontechnical language.
-2. The AI agent searches an **approved knowledge base** and walks the user through step-by-step troubleshooting.
-3. If the fix doesn't work, or no approved article exists, the user escalates with one tap. The AI generates a **ticket summary** with the steps already tried, so the user never has to repeat themselves.
-4. A technician claims the ticket, reviews the summary, and resolves the issue through live chat.
-5. The technician can suggest a knowledge base update, and once the support lead approves it, the AI can solve that issue on its own next time.
-
-The prototype is built around a fictional company, **Silverleaf Logistics**, so it can be demonstrated to any organization.
-
-## My Role
-As **Project Lead**, I coordinate the team, organize requirements, and manage our team contract and documentation. On the design side, I lead **UI/UX design**, including Figma wireframes and prototypes for both the employee portal and the technician console. In our design report, I wrote the **user personas** and the **use case model**.
-
-## Use Case Model
-![IT Support4U use case diagram](./images/use-case-diagram.png)
-
-
-## UI/UX Wireframes
-I designed all wireframes in Figma as part of my UI/UX lead role. The design focuses on making the experience fast and clear for employees who aren't technical, while giving support technicians the context they need to resolve issues quickly.
-
-**Landing page:** employees can start an AI chat, search the knowledge base, or track a ticket without signing in first.
-
-![Landing page wireframe](./images/wireframe-landing.png)
-
-**Employee dashboard:** after signing in, users see their open tickets by status and can jump straight into an AI chat or submit a form.
-
-![Employee dashboard wireframe](./images/wireframe-employee-dashboard.png)
-
-**Submit a ticket:** when escalating, the form is pre-filled from the AI chat so the user never has to repeat themselves. Priority, category, and attachments are built in.
-
-![Submit a ticket wireframe](./images/wireframe-submit-ticket.png)
-
-**Technician escalation queue:** technicians see all open tickets sorted by priority and wait time. The AI summary panel shows what was tried before escalation so they can start where the AI left off.
-
-![Technician escalation queue wireframe](./images/wireframe-technician-console.png)
-## User Personas
-I created four personas to guide the design of each screen:
-- **Kevin, Warehouse Shift Supervisor:** Works nights when the help desk is closed and mostly uses his phone. He needs fast, mobile-friendly help, for example after an MFA lockout.
-- **Nadia, Account Manager:** Hybrid worker whose VPN keeps dropping. She tries the AI first, escalates when needed, and wants to track her ticket without repeating her problem.
-- **Rachel, Tier-One Technician:** Picks up escalated tickets and needs the AI summary and attempted steps up front so she can start where the AI left off.
-- **Andre, IT Support Lead:** Owns the knowledge base, approves which articles the AI can use, and tracks AI-resolved vs. escalated tickets.
-
-## Technical Architecture
-| Component | Technologies |
-|---|---|
-| Frontend | React, HTML, CSS, JavaScript |
-| Backend API | Python, FastAPI |
-| Database | PostgreSQL / MySQL |
-| AI support component | LLM API, restricted to approved knowledge base articles |
-| Authentication & security | SSO (Microsoft Entra ID / Auth0), role-based access, input validation |
-| Testing | FastAPI Swagger, scenario testing, usability testing |
-| Hosting & version control | Azure / AWS, GitHub |
-
-**Security and ethics built into the design:** role-based access (employees can't see the support queue, technicians can't approve AI articles), an AI limited to approved content so it hands off to a human instead of guessing, and accessibility guided by WCAG 2.1 and the OWASP Top 10.
-
-## Success Measures
-- Usability testing with **5–10 students and faculty**
-- At least **70% of testers** complete guided troubleshooting without help
-- Tracking AI-resolved vs. escalated tickets
-- Deployed and accessible from a normal browser
-
-## Project Timeline
-| Phase | Dates | Status |
-|---|---|---|
-| System design & wireframing | Sep – Oct 2026 | ✅ Complete |
-| Development phase 1 | Oct – Nov 2026 | 🔄 In progress |
-| Development phase 2 | Dec 2026 – Jan 2027 | ⏳ Upcoming |
-| Testing & debugging | Jan – Feb 2027 | ⏳ Upcoming |
-| Final presentation | Mar 2027 | ⏳ Upcoming |
-| IT Expo | Apr 2027 | ⏳ Upcoming |
+📫 [LinkedIn](#) · [Personal Website](#) · [SOC Lab](#)
 
 ---
-_IT Support4U is a team project. This page describes the overall project and highlights my contributions as project lead and UI/UX designer._
+
+## 🌐 Networking & Systems
+| Project | Course | Skills |
+|---|---|---|
+| [Enterprise Network Build](./networking-systems/enterprise-network-packet-tracer) | Network Infrastructure Management | Cisco IOS, VLANs, EIGRP, NAT, DHCP |
+| [IT Asset Management Server on AWS](./networking-systems/snipe-it-asset-management-aws) | Enterprise Systems Administration | AWS EC2, Linux, Nginx, MySQL, Snipe-IT |
+| [Azure Cloud Fundamentals](./networking-systems/azure-cloud-fundamentals) | Cloud Computing | Azure, PowerShell, VNets, NSGs, storage, containers |
+
+## 🛡️ Security Operations & Offensive Security
+| Project | Course | Skills |
+|---|---|---|
+| [OSSEC Alert-Rule Tracing](./security-operations/ossec-alert-rule-tracing) | Network Monitoring & IPS | OSSEC HIDS, alert analysis, rule tracing |
+| [USB Forensic Examination](./security-operations/usb-forensic-examination) | Computer & Network Forensics | FTK, hash verification, chain of custody |
+| [Web Application Vulnerability Testing](./security-operations/web-app-vuln-testing) | Penetration Testing | SQL injection, XSS, Burp Suite, OWASP ZAP |
+| [Secure Network Architecture](./security-operations/secure-network-segmentation) | Network Security | VLANs, VyOS, ARP spoofing, Wireshark |
+
+## 📋 Governance, Risk & Policy
+| Project | Course | Skills |
+|---|---|---|
+| [Network Risk Assessment & Secure Expansion Plan](./grc-policy/network-risk-assessment-and-security-plan) | Network Security | Risk assessment, security policy, executive recommendations |
+| [Ukraine: Resiliency Under Fire](./grc-policy/ukraine-cyber-strategy-paper) | Cybersecurity Policy | Cyber strategy analysis, policy research and writing |
+| _Project name_ | Info Security & Assurance | _e.g. risk assessment, controls_ |
+| _Project name_ | Writing for Business | _e.g. professional and technical writing_ |
+
+## 💻 Scripting, Data & Development
+| Project | Course | Skills |
+|---|---|---|
+| [logmini: Bash Log Analyzer](./scripting-data-dev/logmini-log-analyzer) | Scripting Language | Bash, grep, awk, regex, log triage |
+| GrandEventPlanningDB | Database Management II | SQL Server, schema design (group project) |
+| _Project name_ | Human Computer Interaction | _e.g. user research, prototyping_ |
+
+## ⭐ Capstone: IT Support4U
+AI-assisted IT help desk that resolves common issues from an approved knowledge base and escalates the rest to technicians. I'm the **project lead and UI/UX designer** on a five-person team. _In progress — IT Expo, April 2027._ [See project →](./capstone-it-support4u)
+
+## 🔬 Home SOC Lab (In Progress)
+A Security Operations Center lab I'm building on my own to extend my coursework beyond the classroom.
+- **Goal:** _what the lab is meant to practice, e.g. log monitoring, detection, incident response_
+- **Tools:** _e.g. SIEM, IDS, virtual machines_
+- **Status:** _what's built so far and what's next_
+
+[See lab repository →](#)
+
+---
+
+### Skills Summary
+**Networking:** _list_ · **Security:** _list_ · **Systems/Cloud:** _list_ · **Scripting/Data:** _list_ · **Governance:** _list_

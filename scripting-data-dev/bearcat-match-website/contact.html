@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Bearcat Match</title>
+  <meta name="description" content="Bearcat Match — a mobile-first study coordination app by UC Senior Design Team 17.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">
+        <img src="images/c-paw.jpg" alt="UC Bearcats C-Paw logo">Bearcat Match
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="helpdesk.html">Help Desk</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="sec">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Get in Touch</span>
+          <h1>Contact Us</h1>
+          <p>Have a question or want to get involved? Reach out to Team 17.</p>
+        </div>
+        <div class="contact-cols">
+          <div>
+            <div class="contact-list">
+          <div class="contact-item">
+            <b>Amel Osman</b>
+            <div><span class="role-tag">Project Lead / UI/UX / Docs</span></div>
+            <a href="mailto:osmanal@mail.uc.edu">osmanal@mail.uc.edu</a>
+          </div>
+          <div class="contact-item">
+            <b>Anthony D&rsquo;Amico</b>
+            <div><span class="role-tag">Backend Developer</span></div>
+            <a href="mailto:damicoay@mail.uc.edu">damicoay@mail.uc.edu</a>
+          </div>
+          <div class="contact-item">
+            <b>Apiwat Anachai</b>
+            <div><span class="role-tag">Frontend Developer</span></div>
+            <a href="mailto:anachaat@mail.uc.edu">anachaat@mail.uc.edu</a>
+          </div>
+          <div class="contact-item">
+            <b>Dylan Mertz</b>
+            <div><span class="role-tag">System Integration</span></div>
+            <a href="mailto:mertzdn@mail.uc.edu">mertzdn@mail.uc.edu</a>
+          </div>
+          <div class="contact-item">
+            <b>Saadvik Kotagiri</b>
+            <div><span class="role-tag">QA / Testing</span></div>
+            <a href="mailto:kotagisk@mail.uc.edu">kotagisk@mail.uc.edu</a>
+          </div>
+            </div>
+          </div>
+          <div>
+            <figure class="map-card reveal">
+              <a href="images/uc-campus-map.png" target="_blank" rel="noopener">
+                <img src="images/uc-campus-map.png" alt="University of Cincinnati Uptown West campus map">
+              </a>
+              <figcaption>UC Uptown West campus &mdash; tap to view full size</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap inner">
+      <div class="foot-brand">
+        <img src="images/c-paw.jpg" alt="">
+        <span>&copy; 2026 Bearcat Match &mdash; Senior Design Team 17, University of Cincinnati</span>
+      </div>
+      <div class="foot-links">
+        <a href="policies.html">Policies</a>
+        <a href="helpdesk.html">Help Desk</a>
+        <a href="mailto:osmanal@mail.uc.edu">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  (function(){
+    var r=window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+    var t=document.querySelectorAll(".reveal");
+    if(r||!("IntersectionObserver" in window)){t.forEach(function(e){e.classList.add("shown");});return;}
+    var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add("shown");io.unobserve(e.target);}});},{threshold:.1});
+    t.forEach(function(e){io.observe(e);});
+  })();
+</script>
+</body>
+</html>

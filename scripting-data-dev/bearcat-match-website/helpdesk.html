@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help Desk — Bearcat Match</title>
+  <meta name="description" content="Bearcat Match — a mobile-first study coordination app by UC Senior Design Team 17.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=Public+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">
+        <img src="images/c-paw.jpg" alt="UC Bearcats C-Paw logo">Bearcat Match
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="helpdesk.html" class="active">Help Desk</a></li>
+      <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="sec">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Support</span>
+          <h1>Help Desk</h1>
+          <p>Having an issue with the Bearcat Match app or this website? Submit a support ticket and Team 17 will respond within 3 business days.</p>
+        </div>
+
+        <p class="ticket-intro">Complete the form below to submit your support ticket. For urgent safety concerns contact <strong>UC Public Safety</strong> directly.</p>
+
+        <div class="contact-cols">
+          <!-- LEFT COLUMN: Contact Info -->
+          <div class="contact-list">
+            <h2>Support Information</h2>
+            <div class="contact-item">
+              <b>Bearcat Match Support</b>
+              <p>University of Cincinnati<br>Senior Design Team 17</p>
+            </div>
+            <div class="contact-item">
+              <b>Email</b>
+              <a href="mailto:osmanal@mail.uc.edu">osmanal@mail.uc.edu</a>
+            </div>
+            <div class="contact-item">
+              <b>Response Time</b>
+              <p>Within 3 business days</p>
+            </div>
+            <div class="contact-item">
+              <b>Urgent Safety Concerns</b>
+              <p>Contact UC Public Safety directly</p>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN: Form -->
+          <div class="ticket-form">
+            <div class="form-head">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Submit a Support Ticket
+            </div>
+            <div class="form-body">
+              <p>Fields marked with <span class="required">*</span> are required.</p>
+              
+              <div class="field">
+                <label for="name"><span class="required">*</span>Your Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="field">
+                <label for="email"><span class="required">*</span>UC Email Address</label>
+                <input type="email" id="email" name="email" placeholder="yourname@mail.uc.edu" required>
+              </div>
+              
+              <div class="field">
+                <label for="subject"><span class="required">*</span>Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Brief summary of the issue" required>
+              </div>
+              
+              <div class="field">
+                <label for="priority"><span class="required">*</span>Priority</label>
+                <select id="priority" name="priority" required>
+                  <option value="">-- Select Priority --</option>
+                  <option value="Low">Low — general question or minor issue</option>
+                  <option value="Medium">Medium — affects app usability</option>
+                  <option value="High">High — app is unusable / data concern</option>
+                  <option value="Urgent">Urgent — safety or serious policy violation</option>
+                </select>
+              </div>
+              
+              <div class="field">
+                <label for="device">Device &amp; Platform (Optional)</label>
+                <input type="text" id="device" name="device" placeholder="e.g., iPhone 15, iOS 18 or Samsung Galaxy, Android 14">
+              </div>
+              
+              <div class="field">
+                <label for="message"><span class="required">*</span>Describe the Issue</label>
+                <textarea id="message" name="message" rows="6" placeholder="What happened, what you expected, and steps to reproduce if known." required></textarea>
+              </div>
+              
+              <input type="submit" class="btn btn-red form-wide" value="Submit Ticket">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap inner">
+      <div class="foot-brand">
+        <img src="images/c-paw.jpg" alt="">
+        <span>&copy; 2026 Bearcat Match &mdash; Senior Design Team 17, University of Cincinnati</span>
+      </div>
+      <div class="foot-links">
+        <a href="policies.html">Policies</a>
+        <a href="helpdesk.html">Help Desk</a>
+        <a href="mailto:osmanal@mail.uc.edu">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
