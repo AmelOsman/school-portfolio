@@ -31,8 +31,7 @@ This repository collects coursework and projects that show my hands-on work in n
 | [Network Risk Assessment & Secure Expansion Plan](./grc-policy/network-risk-assessment-and-security-plan) | Network Security | Risk assessment, security policy, executive recommendations |
 | [Ukraine: Resiliency Under Fire](./grc-policy/ukraine-cyber-strategy-paper) | Cybersecurity Policy | Cyber strategy analysis, policy research and writing |
 | _Project name_ | Info Security & Assurance | _e.g. risk assessment, controls_ |
-| _Project name_ | Writing for Business | _e.g. professional and technical writing_ |
-
+[Internal Proposal: Electronic Invoicing](./grc-policy/electronic-invoicing-proposal) | Writing for Business | Formal proposal, cost-benefit analysis, executive communication |
 ## 💻 Scripting, Data & Development
 | Project | Course | Skills |
 |---|---|---|
